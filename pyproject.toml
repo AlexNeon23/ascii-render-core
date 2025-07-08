@@ -1,0 +1,20 @@
+[project]
+name = "ascii-render-core"
+version = "0.1.0"
+description = "A core module for rendering images and videos as ASCII."
+authors = [{name = "N3ON"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+ascii-render = "ascii_render_core.app:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

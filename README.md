@@ -7,6 +7,7 @@ El objetivo es construir un motor modular que eventualmente pueda manejar imáge
 
 ## 📁 Estructura del Proyecto
 
+```
 ascii-render-core/
 ├── src/
 │ └── ascii_render_core/
@@ -20,10 +21,7 @@ ascii-render-core/
 ├── README.md
 ├── pyproject.toml
 └── .gitignore
-
 ```
-
----
 
 ## ⚙️ Requisitos
 
@@ -77,4 +75,3 @@ ahora: python -m ascii_render_core.app  inputs/image/portal.png 500 0
 ## 🧠 Autor
 
 **Alex Encinia** aka **N3ON**
-```
